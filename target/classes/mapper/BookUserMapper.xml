@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.book.mapper.BookUserMapper">
+
+<select id="getBookUserByUserPass" parameterType="com.book.pojo.BookUser" resultType="com.book.pojo.BookUser">
+    select
+        uid,username,password,email,type
+    from bookuser
+    <where>
+
+        <if test="email != null and email != ''">
+            email = #{email}
+        </if>
+        <if test="userName != null and userName != ''">
+            and username = #{userName}
+        </if>
+        <if test="passWord != null and passWord != ''">
+            and  password = #{passWord}
+        </if>
+    </where>
+</select>
+
+    <!--用户注册-->
+    <insert id="insetBookUser" parameterType="com.book.pojo.BookUser">
+        insert into bookuser (uid,username,password,email,type) value (#{uid},#{userName},#{passWord},#{email},#{type});
+    </insert>
+
+
+</mapper>

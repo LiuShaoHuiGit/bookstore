@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+
+   <div style="width: 90%;">
+
+       <form style="margin: auto" action="getBookUserByUserPass.html" method="post">
+           <table>
+               <tr>
+                   <td>账号：</td>
+                   <td><input type="text" name="userName" /> </td>
+                   <td></td>
+               </tr>
+
+               <tr>
+                   <td>密码：</td>
+                   <td colspan="2"><input type="password" name="passWord"/> </td>
+               </tr>
+
+               <tr>
+                   <td colspan="3"><input type="button" id="pass"  value="登录"/> </td>
+               </tr>
+               <tr>
+                   <td colspan="3"><a href="register.html">立即注册</a> </td>
+               </tr>
+           </table>
+       </form>
+
+   </div>
+<script src="static/js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#pass").click(function () {
+            let email = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            let name = $("input").eq(0).val();
+            if(name!=null && name != ""){
+                if(email.test(name)){
+                    $("input").eq(0).attr("name","email");
+                }
+                $("input").eq(2).attr("type","submit");
+            }else{
+                $("td").eq(2).text("用户输入不正确！");
+            }
+        })
+    })
+
+    // let email = ^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$
+//     $(function(){
+//
+//         $("#pass").click(function(){
+//             var name = $("input").eq(0).val();
+//             let bool = email.test(name);
+//             new
+//             // var root = email.test(name);
+// alert(bool);
+// // alert(root);
+//
+//         });
+//     })
+
+</script>
+</body>
+</html>

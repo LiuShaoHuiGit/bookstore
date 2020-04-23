@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+   http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+   http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+    <!--加载 数据库配置信息  properties-->
+    <context:property-placeholder location="classpath:jdbc.properties,classpath:redis.properties" />
+
+    <!-- 链接 配置 数据库 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="jdbc:mysql://${jdbc.host}:3306/${jdbc.database}?useUnicode=true&amp;characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull" />
+        <property name="username" value="${jdbc.userName}" />
+        <property name="password" value="${jdbc.passWord}" />
+    </bean>
+
+    <!-- spring 结合 mybatis  -->
+    <!-- mybatis 扫描 mapper.xml -->
+    <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="mapperLocations" value="classpath:mapper/*.xml" />
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+
+        <!--配置mybatis 插件-->
+        <property name="plugins">
+            <set>
+                <!--配置pageHelper 分页插件-->
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <props>
+                            <!--方言：-->
+                            <prop key="helperDialect">mysql</prop>
+                        </props>
+                    </property>
+                </bean>
+            </set>
+        </property>
+
+    </bean>
+
+    <!-- 扫描mapper对应的Inter接口 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.book.mapper" />
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean" />
+    </bean>
+    <!--
+        spring - tx 事物
+            开始mysql事物 ，成功都成功，失败全失败
+     -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+
+    <!-- 引入redis-->
+    <import resource="classpath:redis-context.xml"/>
+    <bean id="redisUtil" class="com.book.utils.RedisUtils"></bean>
+
+    <!--&lt;!&ndash; 配置事物增强,事物如何切入&ndash;&gt;
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            &lt;!&ndash; 所有方法都是事物方法 &ndash;&gt;
+            <tx:method name="*"/>
+            &lt;!&ndash; 以get开始的所有方法 &ndash;&gt;
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="query*" read-only="true"/>
+            <tx:method name="find*" read-only="true"/>
+            <tx:method name="select*" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+-->
+
+
+
+</beans>

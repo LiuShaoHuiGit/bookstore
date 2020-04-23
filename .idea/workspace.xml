@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bookstore:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57c1e1bf-f798-4334-830c-d4571b4b6618" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e8efc44e-fa73-4eec-b57c-df76a4707bef.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e8efc44e-fa73-4eec-b57c-df76a4707bef/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/pojo/BookCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/pojo/BookCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/pojo/BookUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookCartImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookCategoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookUserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/inter/BookCartInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/inter/BookCategoryInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/inter/BookInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/inter/BookUserInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/utils/BookUserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationcontest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookCartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/baidu/test/pass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/baidu/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileImg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/14b556555c367478a1d5b9d2fc5fe37e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/1592bac36c4235a7babc5d4e3bab6e67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/1d41ccb90ece7201a80276f7073e9eeb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/2435c0c32c30b1927038d71e49557991.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/25029f1c804220a066213d9ae38a584c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/2cdef81acc6104aac3c0d1a4fd8cc25d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/33d5f48e002c01a5f62ea2f98ecc7dc3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/39d8117e3110b1ca17603c25e10cc2cb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/3b03c93fc5133b0fc644050b14f69384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/3c2b9a80de6dcabaa64c35e097ba92b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/46c0fed26bb0d8756c6d70e153ebbc6c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/511f1ae1ee11efc67f7c6bcb4e6ec5ca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/5bb6aaf68ddfa0a33fee8e96ccdd4768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/5eb5ffa78509cb0af9941f5164db382f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/608051c5d99ac746ab141100f6318cb6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/658c01ceb6f71a703f967d2a83f88891.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/6f084ff572d80f7ec6089dfaf70926c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/7af4b61cf93e0f74d1323a5822ef73da.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/8856f944a07536be3fb23774573a2a9f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/9f2e294ba0d00f45e9c0daf25555da71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a39166f7fa3269205589b213077ff62e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a5ac865579dc324c5ed2cf4cf6f6242a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/b80c67306653dcdbc73a54dbca31ca6e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/be4eea0b1f8fea0e2a39db20e61b2eec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/bebe9accef6e83e03103d23069c94530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/db11247a9b80ef6d2182128ec2e0842f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/e1b411db2654da422defe48c9cf73650.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/eab24528f1f5ae63c619d6d97ff54ac0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/ef0999bd9d5160b933660ea4092609c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/ff3d6c016db6a2dbb25b9e72a52a53d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/applicationcontest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/controller/BookCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/controller/BookIndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/controller/BookUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/mapper/BookCartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/mapper/BookCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/mapper/BookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/mapper/BookUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/pojo/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/pojo/BookCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/pojo/BookCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/pojo/BookUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/impl/BookCartImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/impl/BookCategoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/impl/BookImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/impl/BookUserImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/inter/BookCartInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/inter/BookCategoryInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/inter/BookInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/inter/BookUserInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/utils/BookUserUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/utils/BookUserUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/utils/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/utils/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mapper/BookCartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mapper/BookCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mapper/BookUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/redis-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/activation-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/javassist-3.16.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/mail-1.4.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-aop-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-beans-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-context-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-core-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-data-commons-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-data-keyvalue-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-data-redis-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-expression-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-jcl-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-jdbc-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-oxm-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-test-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-tx-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-webmvc-5.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/thymeleaf-2.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/thymeleaf-spring4-2.1.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/fileImg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/14b556555c367478a1d5b9d2fc5fe37e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/1592bac36c4235a7babc5d4e3bab6e67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/1d41ccb90ece7201a80276f7073e9eeb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/2435c0c32c30b1927038d71e49557991.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/25029f1c804220a066213d9ae38a584c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/2cdef81acc6104aac3c0d1a4fd8cc25d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/33d5f48e002c01a5f62ea2f98ecc7dc3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/39d8117e3110b1ca17603c25e10cc2cb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/3b03c93fc5133b0fc644050b14f69384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/3c2b9a80de6dcabaa64c35e097ba92b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/46c0fed26bb0d8756c6d70e153ebbc6c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/511f1ae1ee11efc67f7c6bcb4e6ec5ca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/5bb6aaf68ddfa0a33fee8e96ccdd4768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/5eb5ffa78509cb0af9941f5164db382f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/608051c5d99ac746ab141100f6318cb6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/658c01ceb6f71a703f967d2a83f88891.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/6f084ff572d80f7ec6089dfaf70926c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/7af4b61cf93e0f74d1323a5822ef73da.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/8856f944a07536be3fb23774573a2a9f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/9f2e294ba0d00f45e9c0daf25555da71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/a39166f7fa3269205589b213077ff62e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/a5ac865579dc324c5ed2cf4cf6f6242a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/b80c67306653dcdbc73a54dbca31ca6e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/be4eea0b1f8fea0e2a39db20e61b2eec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/bebe9accef6e83e03103d23069c94530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/db11247a9b80ef6d2182128ec2e0842f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/e1b411db2654da422defe48c9cf73650.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/eab24528f1f5ae63c619d6d97ff54ac0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/ef0999bd9d5160b933660ea4092609c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/ff3d6c016db6a2dbb25b9e72a52a53d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookstore/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationcontest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/controller/BookCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/controller/BookIndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/controller/BookUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/mapper/BookCartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/mapper/BookCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/mapper/BookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/mapper/BookUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/pojo/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/pojo/BookCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/pojo/BookCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/pojo/BookUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/impl/BookCartImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/impl/BookCategoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/impl/BookImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/impl/BookUserImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/inter/BookCartInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/inter/BookCategoryInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/inter/BookInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/inter/BookUserInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/utils/BookUserUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/utils/BookUserUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/utils/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/book/utils/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BookCartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BookCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BookUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/redis-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/baidu/test/pass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/baidu/test/test.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="booksql" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="booksql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="booksql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="booksql" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML4 File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\WorkSpace\IntelliJ IDEA\bookstore\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Software/Maven/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="D:\Software\Maven\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="mavenProperties">
+      <map>
+        <entry key="DarchetypeCatalog" value="local" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z9qPQ4bUPLsGhAyWh7TWSh8svU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.book.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\IntelliJ IDEA\bookstore\src\main\resources" />
+      <recent name="D:\WorkSpace\IntelliJ IDEA\bookstore\src\main\webapp\static\js" />
+      <recent name="D:\WorkSpace\IntelliJ IDEA\bookstore\src\main\webapp\statics" />
+      <recent name="D:\WorkSpace\IntelliJ IDEA\bookstore\src\main\webapp\static\img" />
+      <recent name="D:\WorkSpace\IntelliJ IDEA\bookstore\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.pass">
+    <configuration name="BookUserUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.book.utils.BookUserUtils" />
+      <module name="bookstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.book.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baidu.test.pass" />
+      <module name="bookstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baidu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baidu.test.test" />
+      <module name="bookstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baidu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="bookstore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/bookstore_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bookstore_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58540" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bookstore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BookUserUtils" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.pass" />
+      <item itemvalue="Tomcat Server.bookTomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.pass" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.BookUserUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.20452641" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57c1e1bf-f798-4334-830c-d4571b4b6618" name="Default Changelist" comment="" />
+      <created>1584261632519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584261632519</updated>
+      <workItem from="1584261635943" duration="4448000" />
+      <workItem from="1584276458003" duration="1251000" />
+      <workItem from="1584328860340" duration="11381000" />
+      <workItem from="1584451635257" duration="10233000" />
+      <workItem from="1584495823136" duration="27974000" />
+      <workItem from="1584581282664" duration="30230000" />
+      <workItem from="1584669100373" duration="12413000" />
+      <workItem from="1584698966390" duration="26000" />
+      <workItem from="1584711727781" duration="6942000" />
+      <workItem from="1584756014709" duration="4206000" />
+      <workItem from="1584798726005" duration="4932000" />
+      <workItem from="1584839156274" duration="1560000" />
+      <workItem from="1584881644579" duration="11620000" />
+      <workItem from="1584973806549" duration="2868000" />
+      <workItem from="1585041966772" duration="2679000" />
+      <workItem from="1585104735295" duration="5764000" />
+      <workItem from="1585141830569" duration="6244000" />
+      <workItem from="1585210106673" duration="3113000" />
+      <workItem from="1585290677766" duration="1463000" />
+      <workItem from="1585736569979" duration="7529000" />
+      <workItem from="1586238218212" duration="693000" />
+      <workItem from="1586352461543" duration="8785000" />
+      <workItem from="1586415540679" duration="9219000" />
+      <workItem from="1587300406627" duration="798000" />
+      <workItem from="1587357587749" duration="3707000" />
+      <workItem from="1587538893448" duration="4469000" />
+      <workItem from="1587618522097" duration="3257000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="2" key="#Tomcat_Server" timestamp="1584277678790">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#Tomcat_Server/0.0.1280.680@0.0.1280.680" timestamp="1584277678790" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586358377500">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586358377500" />
+    <state x="387" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584674069223">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="387" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1584674069223" />
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1584760127568">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584760127568" />
+    <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584759348811">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1584759348811" />
+    <state x="119" y="73" key="FileChooserDialogImpl" timestamp="1587618542688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="119" y="73" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587618542688" />
+    <state width="932" height="123" key="GridCell.Tab.0.bottom" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.0.center" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.0.left" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.0.right" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.1.bottom" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.1.center" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.1.left" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.1.right" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.2.bottom" timestamp="1587377181034">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587377181034" />
+    <state width="932" height="123" key="GridCell.Tab.2.center" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.2.left" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="123" key="GridCell.Tab.2.right" timestamp="1587377181033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="123" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1587377181033" />
+    <state width="932" height="475" key="GridCell.Tab.3.bottom" timestamp="1587376968209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="475" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587376968209" />
+    <state width="932" height="475" key="GridCell.Tab.3.center" timestamp="1587376968208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="475" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1587376968208" />
+    <state width="932" height="475" key="GridCell.Tab.3.left" timestamp="1587376968208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="475" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1587376968208" />
+    <state width="932" height="475" key="GridCell.Tab.3.right" timestamp="1587376968208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="475" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1587376968208" />
+    <state width="932" height="475" key="GridCell.Tab.4.bottom" timestamp="1587376976522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="475" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587376976522" />
+    <state width="932" height="475" key="GridCell.Tab.4.center" timestamp="1587376976521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="475" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1587376976521" />
+    <state width="932" height="475" key="GridCell.Tab.4.left" timestamp="1587376976521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="475" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1587376976521" />
+    <state width="932" height="475" key="GridCell.Tab.4.right" timestamp="1587376976522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="932" height="475" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1587376976522" />
+    <state width="960" height="163" key="GridCell.Tab.5.bottom" timestamp="1584891638793">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="960" height="163" key="GridCell.Tab.5.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584891638793" />
+    <state width="960" height="163" key="GridCell.Tab.5.center" timestamp="1584891638792">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="960" height="163" key="GridCell.Tab.5.center/0.0.1280.680@0.0.1280.680" timestamp="1584891638792" />
+    <state width="960" height="163" key="GridCell.Tab.5.left" timestamp="1584891638792">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="960" height="163" key="GridCell.Tab.5.left/0.0.1280.680@0.0.1280.680" timestamp="1584891638792" />
+    <state width="960" height="163" key="GridCell.Tab.5.right" timestamp="1584891638793">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="960" height="163" key="GridCell.Tab.5.right/0.0.1280.680@0.0.1280.680" timestamp="1584891638793" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1584338109948">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584338109948" />
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1587618522088">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587618522088" />
+    <state x="0" y="0" width="746" height="680" key="find.popup" timestamp="1584585320713">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="746" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1584585320713" />
+    <state x="461" y="220" key="git4idea.rebase.GitRebaseDialog" timestamp="1587637388217">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="461" y="220" key="git4idea.rebase.GitRebaseDialog/0.0.1280.680@0.0.1280.680" timestamp="1587637388217" />
+    <state x="28" y="45" key="new project wizard" timestamp="1586238819565">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="45" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1586238819565" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1586418941339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1586418941339" />
+    <state x="303" y="1" width="672" height="160" key="search.everywhere.popup" timestamp="1586422587520">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="160" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586422587520" />
+  </component>
+</project>

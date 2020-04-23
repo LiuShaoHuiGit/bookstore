@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.book.mapper.BookCartMapper">
+<!--  listCart 的返回值  -->
+    <resultMap id="listCartMap" type="com.book.pojo.BookCart">
+        <id column="cartid" property="cartId"/>
+        <result column="cont" property="cont"/>
+        <association property="book" javaType="com.book.pojo.Book">
+            <result column="author" property="author"/>
+            <result column="price" property="price"/>
+            <result column="bname" property="bname"/>
+            <result column="image" property="image"/>
+        </association>
+    </resultMap>
+<!--  获取当前用户下所有购物商品 -->
+    <select id="listCart" resultMap="listCartMap" parameterType="java.lang.String">
+        select image,bname,price,author,cont,cartId from bookcart c left join book b on c.bid=b.bid where uid=#{uid}
+    </select>
+<!--  添加购物车  -->
+    <insert id="addCart" parameterType="com.book.pojo.BookCart" >
+        insert into bookcart (cont,bid,uid) value (#{cont},#{bid},#{uid})
+    </insert>
+<!--  根据用户id删除所有  -->
+    <delete id="delCartByUId" parameterType="java.lang.String" >
+        delete from bookcart  where uid = #{uid}
+    </delete>
+<!--     根据购物id删除  -->
+    <delete id="delCartByCartId" parameterType="java.lang.Integer">
+        delete  from bookcart where cartid = #{cartId}
+    </delete>
+</mapper>

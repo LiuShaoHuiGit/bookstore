@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<style>
+    li{
+        list-style: none;
+    }
+    tr,td{
+        border: aquamarine 2px solid;
+    }
+    html{
+        width:100%;
+        height: 100%;
+    }
+    body{
+        width:100%;
+        height: 100%;
+    }
+    .category{
+        margin-left: 10%;
+    }
+    .category ul{
+        /* margin: 0px; */
+        padding: 0px;
+    }
+    .category li{
+        background-color: cornsilk;
+        /* padding: 2px; */
+        margin-top: 6px;
+    }
+    .category a{
+    }
+     .simg li{
+         list-style-type: none;
+         border:  aqua 2px solid ;
+         width: 20%;
+         padding: 5px;
+         margin: 10px;
+         float: left;
+         text-align: center;
+
+     }
+    .simg table{
+        margin: 0px auto;
+    }
+    .simg ul{
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+</style>
+<body>
+<div style="width: 100%; height: 100%;">
+
+    <table style="width: 99%; height: 50%;">
+
+        <tr>
+            <td colspan="2">
+                <ul>
+                    <li style="width: 100%; height: 5%;"><h1 align="center">ITCAST书店</h1></li>
+                    <li>
+                        您好：<span></span> | <a href="cart.html">我的购物车</a> | 我的订单 | 退出
+                    </li>
+                    <li>
+                        登录 | 注册
+                    </li>
+                </ul>
+
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 15%">
+                <div class="category" >
+                    <input type="hidden" value="0"  />
+                    <a href="#">全部分类</a>
+                    <ul >
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </div>
+            </td>
+            <td >
+                <h1 class="hell">欢迎 欢迎！热烈欢迎</h1>
+                <div style="width: 100%; height: 50%;" class="simg">
+
+                    <ul class="book">
+
+
+
+                    </ul>
+
+                </div>
+            </td>
+        </tr>
+<a href=""></a>
+    </table>
+
+</div>
+<script src="static/js/jquery.min.js" type="text/javascript"></script>
+<!--<script src="static/js/jquery.cookie.js" type="text/javascript"></script>-->
+<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script>
+
+
+
+/*点击退出登录显示.hell*/
+    $(function () {
+
+        // let convertibilityPrizeSet = JSON.parse('${bookList}')
+        var name = "${name}";
+        alert(name);
+        if(name != null){
+        }/*else if("name="+convertibilityPrizeSet != null) {
+            alert("convertibilityPrizeSet"+convertibilityPrizeSet)
+        }*/
+
+        $(".simg").hide();
+        $(".category").on("click","a" ,function () {
+            $(".hell").hide();
+            $(".simg").show();
+            let url = $(this).siblings("input").val();
+            $.ajax({
+                type:"POST",
+                url:"listBook.html",
+                data:"cid="+url,
+                dataType: "JSON",
+                success:function (data) {
+                let html ="" ;
+                for (let i =0 ; i < data.length;i++){
+                    html+="<li>\n" +
+                        "   <table>" +
+                        "       <tr> <td><img src='static/img/"+data[i].image+"'/></td>" +
+                        "                                </tr>\n" +
+                        "                                <tr>\n" +
+                        "                                    <td><a href='getBook.html?bid="+data[i].bid+"'>"+data[i].bname+"</a></td>" +
+                        "                                </tr>\n" +
+                        "                            </table>\n" +
+                        "                        </li>"
+                }
+                $(".book").html(html);
+                }
+            })
+
+        })
+        let num = 0;
+        let cookieUser=$.cookie("userName");
+        if (cookieUser != null){
+            $("li").eq(2).hide();
+            $("li span").text(cookieUser);
+        }else{
+            $("li").eq(1).hide();
+        }
+        if(num == 0){
+            $.ajax({
+                type:"POST",
+                url:"listCategory.html",
+                dataType:"JSON",
+                success:function (data) {
+                   let datas = data;
+                    let htm = "";
+                   for (let i = 0 ;i < datas.length;i++){
+                       htm += "<li><input type='hidden' value='"+datas[i].cid+"'/><a href='#'>" +datas[i].categoryName+
+                           "</a></li>";
+                    }
+                    $("ul").eq(1).html(htm);
+                }
+            })
+        }
+
+
+    })
+
+</script>
+</body>
+</html>

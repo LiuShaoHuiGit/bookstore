@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">  
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/' debug="false">  
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>  
+		</layout>  
+		<param name="Threshold" value="info"/>
+		<param name="Encoding" value="UTF-8"/> 
+	</appender>
+	<appender name="APP" class="org.apache.log4j.DailyRollingFileAppender">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/singlesday/${weblogic.Name}/info.log"/>
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/>
+		<param name="Threshold" value="info"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>        
+      
+	<appender name="APP-WARN" class="org.apache.log4j.DailyRollingFileAppender">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/singlesday/${weblogic.Name}/warm.log"/>
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/>
+		<param name="Threshold" value="WARN"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>    
+     
+	<appender name="APP-ERROR" class="org.apache.log4j.DailyRollingFileAppender">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/singlesday/${weblogic.Name}/error.log"/>
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/>
+		<param name="Threshold" value="ERROR"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>  
+	<!--校园夺宝季订单中心日志-->
+	<appender name="WHEELDCLOG" class="org.apache.log4j.DailyRollingFileAppender" additivity="false">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/singlesday/oc/wheeloc+${ServiceIP}+${weblogic.Name}"/>
+		<param name="DatePattern" value="'+'yyyyMMddHH'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+
+	<!--监控日志-->
+	<appender name="activityFile" class="org.apache.log4j.DailyRollingFileAppender" additivity="true">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%m%n"/>
+		</layout>
+		<param name="File" value="/app/sinova/logs/monitor/bizactivity/doubleCard/bizactivity+${weblogic.Name}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMddHHmm'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+
+	<appender name="activityAsync" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="1000"/>
+		<param name="Blocking" value="false"/>
+		<appender-ref ref="activityFile"/>
+	</appender>
+
+	<logger name="ACTIVITY_LOGGER">
+		<level value="INFO"/>
+		<appender-ref ref="activityAsync" />
+	</logger>
+
+	<!-- 接口日志 -->
+	<appender name="interfaceFile" class="org.apache.log4j.DailyRollingFileAppender" additivity="true">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%m%n"/>
+		</layout>
+		<param name="File" value="/app/sinova/logs/monitor/bizactivity/doubleCard/operaplatform+${weblogic.Name}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMddHHmm'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+
+	<appender name="interfaceAsync" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="1000"/>
+		<param name="Blocking" value="false"/>
+		<appender-ref ref="interfaceFile"/>
+	</appender>
+
+	<logger name="INTERFACE_LOGGER">
+		<level value="INFO"/>
+		<appender-ref ref="interfaceAsync" />
+	</logger>
+
+	<appender name="WHEELYOUKUDCLOG" class="org.apache.log4j.DailyRollingFileAppender" additivity="true">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/monitor/bizactivity/zbflowshake/operaplatform+${weblogic.Name}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMddHHmm'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+	
+	<appender name="ASYNC_WHEELYOUKUDCLOG" class="org.apache.log4j.AsyncAppender">  
+		<param name="BufferSize" value="1000"/>  
+		<param name="Blocking" value="false"/>  
+		<appender-ref ref="WHEELYOUKUDCLOG"/>  
+	</appender>
+	<appender name="ASYNC_WHEELDCLOG" class="org.apache.log4j.AsyncAppender">  
+		<param name="BufferSize" value="1000"/>  
+		<param name="Blocking" value="false"/>  
+		<appender-ref ref="WHEELDCLOG"/>  
+	</appender> 
+	
+	<!--监控日志-->
+	<appender name="WHEELTENCENTDCLOG" class="org.apache.log4j.DailyRollingFileAppender" additivity="true">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/monitor/bizactivity/zbflowshake/operaplatform+${weblogic.Name}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMddHHmm'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+	<appender name="ASYNC_WHEELTENCENTDCLOG" class="org.apache.log4j.AsyncAppender">  
+		<param name="BufferSize" value="1000"/>  
+		<param name="Blocking" value="false"/>  
+		<appender-ref ref="WHEELUSERPRIZEALLLOG"/>  
+	</appender>   
+      
+    <logger name="wheeluserprizealllog">
+		<level value="INFO"/>   
+		<appender-ref ref="ASYNC_WHEELUSERPRIZEALLLOG" />  
+	</logger>  
+      
+	<root>  
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="APP" />
+		<appender-ref ref="APP-WARN" />
+		<appender-ref ref="APP-ERROR" />
+	</root>
+	
+	<logger name="wheeldc">
+		<level value="INFO"/>   
+		<appender-ref ref="ASYNC_WHEELDCLOG" />  
+	</logger> 
+	<logger name="wheelshakedc">
+		<level value="INFO"/>   
+		<appender-ref ref="ASYNC_WHEELYOUKUDCLOG" />  
+	</logger>
+
+    <!--活动日志-->
+	<appender name="WHEELActiveLOG" class="org.apache.log4j.DailyRollingFileAppender" additivity="true">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/monitor/bizactivity/zbflowshake/bizactivity+${weblogic.Name}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMddHHmm'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+	<appender name="ASYNC_WHEELActiveLOG" class="org.apache.log4j.AsyncAppender">  
+		<param name="BufferSize" value="1000"/>  
+		<param name="Blocking" value="false"/>  
+		<appender-ref ref="WHEELActiveLOG"/>  
+	</appender>
+	<logger name="wheelshakeactive">
+		<level value="INFO"/>   
+		<appender-ref ref="ASYNC_WHEELActiveLOG" />  
+	</logger>
+	<!-- 	用户访问量日志 -->
+	<appender name="WHEELUSERLOGINLOG" class="org.apache.log4j.DailyRollingFileAppender" additivity="true">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/singlesday/CZCJUserLogin/userlogin+${weblogic.Name}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMdd'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="utf-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+	
+	<appender name="ASYNC_WHEELUSERLOGINLOG" class="org.apache.log4j.AsyncAppender">  
+		<param name="BufferSize" value="1000"/>  
+		<param name="Blocking" value="false"/>  
+		<appender-ref ref="WHEELUSERLOGINLOG"/>  
+	</appender>   
+      
+    <logger name="wheeluserloginlog">
+		<level value="INFO"/>   
+		<appender-ref ref="ASYNC_WHEELUSERLOGINLOG" />  
+	</logger>
+	
+			<!--放入mq日志 -->
+		<appender name="ACTIVE_MQ" class="org.apache.log4j.DailyRollingFileAppender" additivity="false">  
+		<layout class="org.apache.log4j.PatternLayout">  
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>  
+		</layout>
+		<param name="File" value="/app/sinova/logs/activity/mqinfomation/provide/provide+${WLS_NODE}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMdd'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+	
+		   <logger name="mqlog">
+		<level value="INFO"/>   
+		<appender-ref ref="ACTIVE_MQ" />  
+	</logger>
+
+	<!--第一弹 存用户中奖信息  -->
+	<appender name="ONELOTTERY" class="org.apache.log4j.DailyRollingFileAppender" additivity="false">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>
+		</layout>
+		<param name="File" value="/app/sinova/logs/singlesday/lotteryinfomation/userlottery/userlottery+${WLS_NODE}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMdd'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+
+	<logger name="onelottery">
+		<level value="INFO"/>
+		<appender-ref ref="ONELOTTERY" />
+	</logger>
+
+	<!--第yi弹 存用户EB调用  -->
+	<appender name="ONEEB" class="org.apache.log4j.DailyRollingFileAppender" additivity="false">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>
+		</layout>
+		<param name="File" value="/app/sinova/logs/singlesday/lotteryinfomation/eblottery/eblottery+${WLS_NODE}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMdd'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+
+	<logger name="oneeb">
+		<level value="INFO"/>
+		<appender-ref ref="ONEEB" />
+	</logger>
+
+	<!--第yi弹 存用户EB调用  -->
+	<appender name="EBfail" class="org.apache.log4j.DailyRollingFileAppender" additivity="false">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>
+		</layout>
+		<param name="File" value="/app/sinova/logs/singlesday/lotteryinfomation/ebfail/ebfail+${WLS_NODE}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMdd'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+	
+	<property name="smartLog_Path" value="/app/sinova/logs/singlesday/smartuser" />
+	<appender name="smartuserinfo" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	   <File>
+			${smartLog_Path}/smartUser_${weblogic.Name}_${ServiceIP}_info.log
+		</File>
+		<append>true</append>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${smartLog_Path}/smartUser_${weblogic.Name}_${ServiceIP}_info.log.%d{yyyyMMddhhmm}</fileNamePattern>
+		</rollingPolicy>
+		<encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+	</appender>
+
+	<logger name="ebfail">
+		<level value="INFO"/>
+		<appender-ref ref="EBfail" />
+	</logger>
+	
+	
+	<logger name="com.sinova.smartservice.smartservice_userinfo.Utils.LogToMonitored" level="smartuserinfo" additivity="false">  
+    	
+	</logger>
+
+	<!--失败队列中超过次数不再请求的信息日志 -->
+	<appender name="FAILUPDATEPRIZEINFO" class="org.apache.log4j.DailyRollingFileAppender" additivity="true">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c.%M(%L) - %m%n"/>
+		</layout>
+		<param name="File" value="/app/sinova/logs/monitor/bizactivity/failUpdatePrizeInfo/failUpdatePrizeInfo+${WLS_NODE}+${ServiceIP}"/>
+		<param name="DatePattern" value="'+'yyyyMMdd'.log'"/>
+		<param name="Threshold" value="INFO"/>
+		<param name="Encoding" value="UTF-8"/>
+		<param name="Append" value="true"/>
+	</appender>
+	<logger name="failupdateprizeinfo">
+		<level value="INFO"/>
+		<appender-ref ref="FAILUPDATEPRIZEINFO" />
+	</logger>
+</log4j:configuration>  

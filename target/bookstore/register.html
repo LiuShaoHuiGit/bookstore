@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+    <form action="toRegister.html" method="post">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" name="userName"/> </td>
+                <td class="err"></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" name="passWord" /> </td>
+                <td>显示密码</td>
+            </tr>
+            <tr>
+                <td>email：</td>
+                <td><input type="text" name="email" /></td>
+                <td>获取验证码！</td>
+            </tr>
+            <tr>
+                <td>验证码：</td>
+                <td><input type="text" name="code" /></td>
+                <td><span></span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input id="but" type="button" value="登录" /></td>
+            </tr>
+        </table>
+    </form>
+<script type="text/javascript" src="static/js/jquery.min.js"></script>
+<script type="text/javascript">
+
+    $(function(){
+        let code = 0;//发送email 认证码
+        $("input").eq(4).click(function(){
+            if(code == $("input").eq(3).val()){
+                let username=$("input").eq(0).val();
+                let password = $("input").eq(1).val();
+                if( $("input").eq(0).val() == '' ||  $("input").eq(1).val() == ''){
+                   alert("jinru ");
+                    $(".err").text("用户名称/密码不能为空！");
+                }else{
+                     $("#but").attr("type","submit");
+                }
+            }else{
+                $("span").text("验证码输入错误");
+            }
+        })
+
+        $("td").eq(8).click(function () {
+            let regEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            let email = $("input").eq(2).val();
+            if(regEmail.test(email)){
+                $(this).text("已发送验证码！");
+                $.ajax({
+                    type:"POST",
+                    url:"toEmail.html",
+                    data:"email="+$("input").eq(2).val(),
+                    dataType:"JSON",
+                    success:function (data) {
+                        code=data;
+                    }
+                })
+            }else{
+                $(this).text("email格式不正确，点击重新获取验证码！");
+            }
+        })
+
+        $("td").eq(5).click(function () {
+            let  passwords= $("input").eq(1).attr("type");
+            if(passwords == "password"){
+                $("input").eq(1).attr("type","text")
+                $(this).text("不显示密码");
+            }else{
+                $("input").eq(1).attr("type","password")
+                $(this).text("显示密码");
+            }
+        })
+    })
+/*
+*  $.ajax({
+                    type:"POST",
+                    url:"",
+                    data:"",
+                    dataType: "JSON",
+                    success:function (data) {
+
+                    }
+                })
+* */
+</script>
+</body>
+</html>
