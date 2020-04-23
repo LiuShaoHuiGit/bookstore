@@ -7,251 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c1e1bf-f798-4334-830c-d4571b4b6618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e8efc44e-fa73-4eec-b57c-df76a4707bef.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e8efc44e-fa73-4eec-b57c-df76a4707bef/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookIndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookCartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/mapper/BookUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/pojo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/pojo/BookCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/pojo/BookCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/pojo/BookUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookCartImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookCategoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/impl/BookUserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/inter/BookCartInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/inter/BookCategoryInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/inter/BookInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/service/inter/BookUserInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/utils/BookUserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/book/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationcontest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookCartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/redis-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/com/baidu/test/pass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/com/baidu/test/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileImg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/14b556555c367478a1d5b9d2fc5fe37e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/1592bac36c4235a7babc5d4e3bab6e67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/1d41ccb90ece7201a80276f7073e9eeb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/2435c0c32c30b1927038d71e49557991.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/25029f1c804220a066213d9ae38a584c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/2cdef81acc6104aac3c0d1a4fd8cc25d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/33d5f48e002c01a5f62ea2f98ecc7dc3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/39d8117e3110b1ca17603c25e10cc2cb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/3b03c93fc5133b0fc644050b14f69384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/3c2b9a80de6dcabaa64c35e097ba92b5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/46c0fed26bb0d8756c6d70e153ebbc6c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/511f1ae1ee11efc67f7c6bcb4e6ec5ca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/5bb6aaf68ddfa0a33fee8e96ccdd4768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/5eb5ffa78509cb0af9941f5164db382f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/608051c5d99ac746ab141100f6318cb6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/658c01ceb6f71a703f967d2a83f88891.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/6f084ff572d80f7ec6089dfaf70926c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/7af4b61cf93e0f74d1323a5822ef73da.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/8856f944a07536be3fb23774573a2a9f.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/9f2e294ba0d00f45e9c0daf25555da71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a39166f7fa3269205589b213077ff62e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a5ac865579dc324c5ed2cf4cf6f6242a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/b80c67306653dcdbc73a54dbca31ca6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/be4eea0b1f8fea0e2a39db20e61b2eec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/bebe9accef6e83e03103d23069c94530.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/db11247a9b80ef6d2182128ec2e0842f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/e1b411db2654da422defe48c9cf73650.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/eab24528f1f5ae63c619d6d97ff54ac0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/ef0999bd9d5160b933660ea4092609c8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/ff3d6c016db6a2dbb25b9e72a52a53d1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/applicationcontest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/controller/BookCartController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/controller/BookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/controller/BookIndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/controller/BookUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/mapper/BookCartMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/mapper/BookCategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/mapper/BookMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/mapper/BookUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/pojo/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/pojo/BookCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/pojo/BookCategory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/pojo/BookUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/impl/BookCartImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/impl/BookCategoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/impl/BookImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/impl/BookUserImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/inter/BookCartInter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/inter/BookCategoryInter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/inter/BookInter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/service/inter/BookUserInter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/utils/BookUserUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/utils/BookUserUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/utils/DateUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/com/book/utils/RedisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mapper/BookCartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mapper/BookCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mapper/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mapper/BookUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/redis-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/activation-1.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/javassist-3.16.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/mail-1.4.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-aop-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-beans-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-context-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-core-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-data-commons-2.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-data-keyvalue-2.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-data-redis-2.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-expression-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-jcl-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-jdbc-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-oxm-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-test-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-tx-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/spring-webmvc-5.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/thymeleaf-2.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/lib/thymeleaf-spring4-2.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/fileImg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/14b556555c367478a1d5b9d2fc5fe37e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/1592bac36c4235a7babc5d4e3bab6e67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/1d41ccb90ece7201a80276f7073e9eeb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/2435c0c32c30b1927038d71e49557991.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/25029f1c804220a066213d9ae38a584c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/2cdef81acc6104aac3c0d1a4fd8cc25d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/33d5f48e002c01a5f62ea2f98ecc7dc3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/39d8117e3110b1ca17603c25e10cc2cb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/3b03c93fc5133b0fc644050b14f69384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/3c2b9a80de6dcabaa64c35e097ba92b5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/46c0fed26bb0d8756c6d70e153ebbc6c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/511f1ae1ee11efc67f7c6bcb4e6ec5ca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/5bb6aaf68ddfa0a33fee8e96ccdd4768.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/5eb5ffa78509cb0af9941f5164db382f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/608051c5d99ac746ab141100f6318cb6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/658c01ceb6f71a703f967d2a83f88891.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/6f084ff572d80f7ec6089dfaf70926c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/7af4b61cf93e0f74d1323a5822ef73da.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/8856f944a07536be3fb23774573a2a9f.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/9f2e294ba0d00f45e9c0daf25555da71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/a39166f7fa3269205589b213077ff62e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/a5ac865579dc324c5ed2cf4cf6f6242a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/b80c67306653dcdbc73a54dbca31ca6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/be4eea0b1f8fea0e2a39db20e61b2eec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/bebe9accef6e83e03103d23069c94530.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/db11247a9b80ef6d2182128ec2e0842f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/e1b411db2654da422defe48c9cf73650.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/eab24528f1f5ae63c619d6d97ff54ac0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/ef0999bd9d5160b933660ea4092609c8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/img/ff3d6c016db6a2dbb25b9e72a52a53d1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/bookstore/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationcontest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/controller/BookCartController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/controller/BookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/controller/BookIndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/controller/BookUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/mapper/BookCartMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/mapper/BookCategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/mapper/BookMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/mapper/BookUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/pojo/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/pojo/BookCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/pojo/BookCategory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/pojo/BookUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/impl/BookCartImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/impl/BookCategoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/impl/BookImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/impl/BookUserImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/inter/BookCartInter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/inter/BookCategoryInter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/inter/BookInter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/service/inter/BookUserInter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/utils/BookUserUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/utils/BookUserUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/utils/DateUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/book/utils/RedisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BookCartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BookCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BookUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/redis-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/baidu/test/pass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/baidu/test/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/controller/BookController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -706,10 +463,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587618522088" />
+    <state x="439" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587650164574">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="439" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1587650164574" />
     <state x="0" y="0" width="746" height="680" key="find.popup" timestamp="1584585320713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" width="746" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1584585320713" />
+    <state x="337" y="143" key="git4idea.merge.GitPullDialog" timestamp="1587650185530">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="143" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1587650185530" />
     <state x="461" y="220" key="git4idea.rebase.GitRebaseDialog" timestamp="1587637388217">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

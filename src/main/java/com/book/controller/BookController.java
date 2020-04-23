@@ -83,12 +83,10 @@ public class BookController {
             String fileTypes = name.substring((name.lastIndexOf(".")+1),name.length());
             if("jpg".equals(fileTypes)){
                 System.out.println("正确");
-//                InputStream inputStream = new FileInputStream(multipartFile);
                 System.out.println(sourceImg.getWidth());
                 System.out.println(sourceImg.getHeight());
-//                System.out.println(sourceImg.getSize());
             }else{
-                System.out.println("格式不正确！");
+                System.out.println("格式不正确啊！");
             }
         }else{
             System.err.println("请选择上传的图片");
